@@ -1,0 +1,254 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+/* NAV */
+
+.navbar-brand{
+    color: black;
+    font-size: 16px;
+    font-weight: lighter;
+
+
+}
+
+.navContainer .nav-item:hover {
+    color: #735646;
+    font-size: 16px;
+    transition: 0.3s;
+    transform:scale(1)
+
+}
+
+
+
+.navbar-nav .nav-item{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight:580;
+}
+
+
+
+/* HERO */
+
+.heroContainer{
+    color: white;
+    background-color: rebeccapurple;
+    height: 550px;
+    width: 100%;
+    background: linear-gradient(to left, transparent, rgb(66, 60, 53)), 
+    url("/img/img-main.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.infoHero h1{
+    width: 400px;
+    font-weight: lighter;
+    font-size: 46px;
+}
+
+.infoHero .buttonHero{
+    width: 140px;
+    border: solid 1px transparent;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    font-weight: medium;
+    font-size: 14px;
+}
+
+
+.buttonHero:hover{
+    background-color: #F9F7F2 ;
+    color: black;
+    transition: 1s ease;
+}
+
+/* MAIN */
+.mainContainer{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.infoContainer p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.infoContainer a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+/* GALERY */
+
+
+.containerGalery{
+    background-color: #F9F7F2;
+    margin: px 0px 0px 0px;
+    padding-bottom: 40px;
+}
+
+.galery-info{
+    padding-top: 40px;
+}
+
+.galery-info h1{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.galery-info p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+.img-description{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.img-price{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Contact */
+
+.containerContact{
+    background-color: #F9F7F2;
+}
+
+.infoContact{
+    align-items: center;
+    margin-top: 120px;
+    height: 300px;
+    margin-bottom: 120px;
+    
+}
+
+.infoContact h2{
+    color: black;
+    font: 22px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.infoContact p{
+    font-weight: lighter;
+    font: 24px;
+}
+
+.infoContact p a{
+    font-weight: lighter;
+    font: 24px;
+    color: black;
+}
+
+
+/* FORMS */
+
+
+.pForm{
+    font-size: 14px;
+    margin-top: 60px;
+    color: black
+}
+
+.formConainer{
+    margin-top: 60px;
+    font-weight: 400;
+    font: medium;
+    width: 500px;
+    margin-bottom: 60px;
+}
+
+
+
+.form-label{
+    font-weight: medium;
+    font-size: 16px;
+}
+
+.form-control{
+    border: 1px solid gray;
+}
+
+.pGray{
+    font-size: 16px;
+    color: rgb(184, 184, 184);
+}
+
+.pGray a{
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+}
+
+.btnSubmit:hover{
+    color: #F9F7F2;
+}
+
+/* FOOTER */
+
+.buttonFooter{
+    background-color: none;
+    text-decoration: none;
+    border: none;
+}
+
+
+
+.footerItem{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.footerItem:hover{
+        font-size: 16px;
+        color: #735646;
+        font-size: 16px;
+        transition: 0.3s;
+        transform:scale(1)
+    
+    }
+
+
+
+.containerFooter h4{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:light;
+    font-size: 22px;
+}
+
+.buttonFooter{
+    padding-left: 0px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.containerFooter p{
+    font-size: 10px;
+    font-weight: lighter;
+    margin-right: 30px;
+}
+
